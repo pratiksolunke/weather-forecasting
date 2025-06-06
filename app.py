@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # Paths
 model_path = os.path.join('models', 'temp_forecast_model.pkl')
-data_path = r'D:\projects\weather forecasting\data\processed\live_weather.csv'
+data_path = os.path.join('data', 'processed', 'live_weather.csv')
 
 # Load model and data
 model = joblib.load(model_path)
